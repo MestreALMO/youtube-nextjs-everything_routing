@@ -2,26 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+*:focus {
+  outline-style: solid;
+  outline-color: blue;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  width: 100%;
+  min-height: 100%;
+  background-color: rgb(1, 247, 222);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+main {
+  margin-top: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.nav-button {
+  background-color: rgb(0, 139, 139, 0.7);
+  padding: 0.6rem 2rem;
+  border-radius: 20px;
+  color: #fff;
+  transition: 0.4s;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button:hover {
+  background-color: rgb(0, 139, 139, 1);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.8);
+  transform: scale(1.2);
+}
+
+.input-select-color {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 }
