@@ -1,11 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 
-export default function Comment() {
+export default function DynamicRoutes() {
   const [input, setInput] = useState("");
 
   const router = useRouter();
@@ -15,7 +14,7 @@ export default function Comment() {
       <form
         onSubmit={(e) => {
           e.preventDefault();
-          router.push(`/comment/${input}`);
+          router.push(`/dynamic-routes/${input}`);
         }}
         className="text-xl flex items-center relative"
       >

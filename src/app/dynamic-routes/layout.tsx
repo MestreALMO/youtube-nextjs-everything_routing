@@ -7,8 +7,8 @@ export default function CommentDynamicRoutes({
     <section>
       <div className="flex flex-col justify-center items-center">
         <h1>Dynamic Routes</h1>
-        <h2>Comment</h2>
-        <p className="text-xl font-bold">What is your favorite treat?</p>
+        <hr className="w-[100%] my-2 border-black" />
+        <h2>Comment what is your favorite treat?</h2>
       </div>
 
       {children}
