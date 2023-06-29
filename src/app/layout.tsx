@@ -31,7 +31,7 @@ export default function RootLayout({
             Parallel Routes
           </Link>
         </nav>
-        <hr className="w-[100%] border-black" />
+        <hr className="w-[100%] border-black mb-2" />
         {children}
       </body>
     </html>
