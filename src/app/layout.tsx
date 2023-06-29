@@ -21,14 +21,11 @@ export default function RootLayout({
           <Link href={"/"} className="nav-button">
             Home
           </Link>
-          <Link href={"/subscribe"} className="nav-button">
-            Subscribe
+          <Link href={"/link"} className="nav-button">
+            Link
           </Link>
-          <Link href={"/like"} className="nav-button">
-            Like
-          </Link>
-          <Link href={"/comment"} className="nav-button">
-            Comment
+          <Link href={"/dynamic-routes"} className="nav-button">
+            Dynamic Routes
           </Link>
         </nav>
         <hr className="w-[100%]" />
