@@ -17,17 +17,16 @@ export default function Comment() {
           e.preventDefault();
           router.push(`/comment/${input}`);
         }}
+        className="text-xl flex items-center relative"
       >
-        <div className="text-xl flex items-center relative">
-          <input
-            className="border-2 border-gray-950 rounded-lg p-1 pr-7 text-inherit input-select-color"
-            value={input}
-            onChange={(e) => {
-              setInput(e.currentTarget.value);
-            }}
-          />
-          <FaSearch className="text-inherit absolute right-2" />
-        </div>
+        <input
+          className="border-2 border-gray-950 rounded-lg p-1 pr-7 text-inherit input-select-color"
+          value={input}
+          onChange={(e) => {
+            setInput(e.currentTarget.value);
+          }}
+        />
+        <FaSearch className="text-inherit absolute right-2" />
       </form>
     </main>
   );

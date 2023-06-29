@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} min-h-screen`}>
         <nav className="flex gap-8 p-8 justify-center">
           <Link href={"/"} className="nav-button">
             Home
@@ -26,6 +26,9 @@ export default function RootLayout({
           </Link>
           <Link href={"/dynamic-routes"} className="nav-button">
             Dynamic Routes
+          </Link>
+          <Link href={"/parallel-routes"} className="nav-button">
+            Parallel Routes
           </Link>
         </nav>
         <hr className="w-[100%]" />
