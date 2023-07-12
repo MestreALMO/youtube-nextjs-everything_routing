@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "youtube.com/andrelusegardis",
-  description: "subscribe, leave a like",
+  title: "youtube.com/developeralmo",
+  description: "Like the video",
 };
 
 export default function RootLayout({
