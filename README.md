@@ -19,7 +19,7 @@
 
 ## About
 
-This is a project created with the objective to contain the projects I do for YouTube, [DevALMO](https://www.youtube.com/@andrelusegardis).
+This is a project created with the objective to contain the projects I do for YouTube, [DevALMO](https://www.youtube.com/@developeralmo).
 
 ## Prerequisites
 
